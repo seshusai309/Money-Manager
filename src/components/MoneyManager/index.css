@@ -1,0 +1,136 @@
+* {
+  font-family: Roboto;
+  outline: none;
+  list-style: none;
+}
+
+.container {
+  padding: 20px 200px 20px 200px;
+  height: 100vh;
+}
+.sub-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 20vh;
+  border-radius: 20px;
+  padding: 60px 20px 20px 20px;
+  background-size: cover;
+}
+
+.head {
+  font-size: 25px;
+}
+
+.MoneySpan {
+  color: #0b69ff;
+  font-weight: 700;
+}
+
+.sub-container2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ecfccb;
+  height: 15vh;
+  width: 300px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+
+  border-color: #84cc16;
+}
+
+.imgBalance {
+  height: 60px;
+  width: 60px;
+}
+
+.sub-part {
+  margin-left: 10px;
+}
+
+.sub-part-para {
+  font-size: 15px;
+}
+
+.sub-part-head {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.component-2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub2-part {
+  margin-top: 20px;
+  width: 40%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 30px;
+}
+
+.input1 {
+  padding: 5px;
+  border-width: 1px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.input2 {
+  padding: 5px;
+  border-width: 1px;
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.input3 {
+  padding: 5px;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+.btn {
+  background-color: #0b69ff;
+  color: white;
+  height: 30px;
+  width: 60px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.sub2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub3-part {
+  display: flex;
+  width: 650px;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  height: 50px;
+}
+
+.sub3-container {
+  border-radius: 30px;
+  border-width: 1px;
+  padding: 40px;
+  border-style: solid;
+  align-self: flex-start;
+  margin-top: 20px;
+  height: 55vh;
+  overflow-y: auto;
+}
